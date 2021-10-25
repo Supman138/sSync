@@ -15,7 +15,7 @@
 
 # Ace Permissions
 #### **Replace GROUPNAME with your ace group [ex. add_ace group.admin sSync.Time]**
-add_ace group.GROUPNAME sSync.Time allow
+add_ace group.GROUPNAME sSync.Time allow  
 add_ace group.GROUPNAME sSync.Weather allow
 
 # Commands
