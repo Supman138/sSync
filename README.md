@@ -14,9 +14,9 @@
 - Custom permissions for the commands using Ace Permissions.
 
 # Ace Permissions
-#### **Replace GROUPNAME with your ace group [ex. add_ace group.admin sSync.Time]**
-add_ace group.GROUPNAME sSync.Time allow  
-add_ace group.GROUPNAME sSync.Weather allow
+#### **Replace "GROUPNAME" with your ace group [ex. add_ace group.admin sSync.Time]**
+``add_ace group.GROUPNAME sSync.Time allow``  
+``add_ace group.GROUPNAME sSync.Weather allow``
 
 # Commands
 ``/weather <type>`` - Change the weather type (will fade to the new weather type within 15 seconds).  
