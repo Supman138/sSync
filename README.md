@@ -1,2 +1,2 @@
 # sSync
-FiveM: Time and Weather Sync script
+**FiveM: Time and Weather Sync script**
