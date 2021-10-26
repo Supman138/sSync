@@ -8,7 +8,7 @@
 #
 
 # Features
-- Dynamic changing weather every 10 minutes (can be (temporarily or permanently) disabled. The weather will only change according to realistic patterns. Some types like snow, xmas, halloween and neutral have been disabled. This means that if the weather is currenlty one of those types, it won't be changed. It will also never change to those types.
+- Dynamic changing weather every 10 minutes (can be (temporarily or permanently) disabled. The weather will only change according to realistic patterns. Some types like snow, xmas, halloween and neutral have been disabled. This means that if the weather is currently one of those types, it won't be changed. It will also never change to those types.
 - Blackout. Enable/disable this in the config or using /blackout ingame.
 - Weather and Time synced across all players.
 - Custom permissions for the commands using Ace Permissions.
