@@ -347,19 +347,21 @@ function NextWeatherStage()
     end
 end
 
---Credits, do not remove--
-Citizen.CreateThread(function()
-	Citizen.Wait(5000)
-	print([
-        ^5test
-    ])			
-	print('  ||    ^1Created by Supman138^0')
-	print("  ||    ^2Code used from Vespura's vSync0")
-	print('  ||    ^3sSync has been started^0')
-end)
-
 --Outdated Version Notification--
 Citizen.CreateThread( function()
+    Citizen.Wait(5000)
+    print([[^1-------------------------------------------------------^5
+    ||           _____                 
+    ||     _____/ ___/__  ______  _____
+    ||    / ___/\__ \/ / / / __ \/ ___/
+    ||   (__  )___/ / /_/ / / / / /__  
+    ||  /____//____/\__, /_/ /_/\___/  
+    ||             /____/              
+    ||    
+    ||    Created by Supman138
+    ||    Code used from Vespura's vSync
+    ||    sSync has been started
+^1-------------------------------------------------------^0]])			
     SetConvarServerInfo("sSync", "V"..GetResourceMetadata(GetCurrentResourceName(), 'version'))
     if GetResourceMetadata(GetCurrentResourceName(), 'version') then
         PerformHttpRequest(
@@ -370,10 +372,9 @@ Citizen.CreateThread( function()
                     if rv.version ~= GetResourceMetadata(GetCurrentResourceName(), 'version') then
                         print(
                             ([[^1
--------------------------------------------------------
-sSync
-UPDATE: %s AVAILABLE
-CHANGELOG: %s
+    ||    sSync
+    ||    UPDATE: %s AVAILABLE
+    ||    CHANGELOG: %s
 -------------------------------------------------------^0]]):format(
                                 rv.version,
                                 rv.changelog
