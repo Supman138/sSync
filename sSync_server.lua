@@ -6,10 +6,6 @@
 
 ------------------ change this -------------------
 DynamicWeather = true -- Set this to false if you don't want the weather to change automatically every 10 minutes.
-updateAvailableNotification = true -- Get available update notification 
-
-
-
 
 --------------------------------------------------------------
 debugprint = false -- Debug mode: Not recommended unless asked
